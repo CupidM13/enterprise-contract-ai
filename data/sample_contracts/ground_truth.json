@@ -1,0 +1,427 @@
+{
+  "benchmark_metadata": {
+    "total_contracts": 15,
+    "description": "Comprehensive enterprise vendor risk benchmark spanning standard, edge-case, buried, conflicting, and adversarial drafting patterns across diverse enterprise domains.",
+    "difficulty_distribution": {
+      "EASY": 3,
+      "MODERATE": 4,
+      "HARD_BURIED": 4,
+      "ADVERSARIAL": 4
+    }
+  },
+  "contracts": [
+    {
+      "contract_file": "contract_01_cloud_saas_high_risk.txt",
+      "vendor_name": "NexusCloud SaaS Solutions, Inc.",
+      "sector": "Enterprise CRM / SaaS",
+      "difficulty": "EASY",
+      "acv_usd": 120000.0,
+      "expected_risk_score_range": [75, 95],
+      "expected_risk_level": "CRITICAL",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-SEC-001",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-GOV-008",
+        "POL-SEC-009"
+      ],
+      "expected_compliant_policy_ids": [],
+      "key_violation_phrases": [
+        "STRICTLY LIMITED TO FIVE THOUSAND US DOLLARS ($5,000.00 USD)",
+        "within seventy-two (72) hours",
+        "target monthly uptime percentage of ninety-nine percent (99.0%)",
+        "payable within fifteen (15) days",
+        "five percent (5.0%) per month",
+        "written notice of non-renewal at least ten (10) days",
+        "laws of the Cayman Islands"
+      ]
+    },
+    {
+      "contract_file": "contract_02_data_analytics_compliant.txt",
+      "vendor_name": "ApexData Intelligence Corp.",
+      "sector": "Data Analytics & BI",
+      "difficulty": "EASY",
+      "acv_usd": 250000.0,
+      "expected_risk_score_range": [0, 20],
+      "expected_risk_level": "LOW",
+      "expected_executive_verdict": "APPROVE",
+      "expected_violated_policy_ids": [],
+      "expected_compliant_policy_ids": [
+        "POL-SEC-001",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-006",
+        "POL-SEC-007",
+        "POL-GOV-008",
+        "POL-SEC-009",
+        "POL-DAT-010"
+      ],
+      "key_violation_phrases": []
+    },
+    {
+      "contract_file": "contract_03_cybersecurity_managed_soc.txt",
+      "vendor_name": "SentinelSec Managed Operations LLC",
+      "sector": "Managed Security Services",
+      "difficulty": "MODERATE",
+      "acv_usd": 180000.0,
+      "expected_risk_score_range": [35, 55],
+      "expected_risk_level": "MEDIUM",
+      "expected_executive_verdict": "REVISE_AND_RESUBMIT",
+      "expected_violated_policy_ids": [
+        "POL-SEC-001",
+        "POL-LIA-002",
+        "POL-PAY-004",
+        "POL-TRM-005"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-SLA-003",
+        "POL-SEC-007",
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "LIMITED TO THE TOTAL FEES ACTUALLY PAID BY CUSTOMER IN THE PRECEDING TWELVE (12) MONTHS (1.0x ACV",
+        "within forty-eight (48) hours",
+        "thirty (30) days from invoice date (\"Net 30\")",
+        "notice of non-renewal at least forty-five (45) days"
+      ]
+    },
+    {
+      "contract_file": "contract_04_ai_infrastructure_critical_risk.txt",
+      "vendor_name": "HyperScale AI Systems, Inc.",
+      "sector": "AI GPU Cloud Compute",
+      "difficulty": "ADVERSARIAL",
+      "acv_usd": 500000.0,
+      "expected_risk_score_range": [90, 100],
+      "expected_risk_level": "CRITICAL",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-DAT-010",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-SEC-001",
+        "POL-TRM-005",
+        "POL-PAY-004",
+        "POL-GOV-008"
+      ],
+      "expected_compliant_policy_ids": [],
+      "key_violation_phrases": [
+        "perpetual, irrevocable, worldwide, royalty-free license to ingest, process, and analyze all Customer data... to train",
+        "LIABILITY ARISING FROM THIS AGREEMENT SHALL BE STRICTLY LIMITED TO ONE HUNDRED US DOLLARS ($100.00 USD)",
+        "STRICT \"AS-IS\" AND \"AS-AVAILABLE\" BASIS",
+        "no later than five (5) business days",
+        "early termination fee equal to one hundred percent (100%)",
+        "ten (10) calendar days of invoice presentation (\"Net 10\")"
+      ]
+    },
+    {
+      "contract_file": "contract_05_hr_software_medium_risk.txt",
+      "vendor_name": "TalentSync Global HR Solutions, Inc.",
+      "sector": "HR & Payroll SaaS",
+      "difficulty": "MODERATE",
+      "acv_usd": 85000.0,
+      "expected_risk_score_range": [30, 50],
+      "expected_risk_level": "MEDIUM",
+      "expected_executive_verdict": "REVISE_AND_RESUBMIT",
+      "expected_violated_policy_ids": [
+        "POL-LIA-002",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-007",
+        "POL-SEC-009"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-SEC-001",
+        "POL-SLA-003",
+        "POL-SEC-006",
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "shall not exceed one and one-half times (1.5x) the fees paid",
+        "due within thirty (30) days (\"Net 30\")",
+        "maintains an AICPA SOC 2 Type I report",
+        "notice of non-renewal is provided at least thirty (30) days",
+        "publishing an updated list on its public trust portal"
+      ]
+    },
+    {
+      "contract_file": "contract_06_fintech_payment_gateway_buried_risk.txt",
+      "vendor_name": "PayStream Global Infrastructure Ltd.",
+      "sector": "Fintech / Payment Processing",
+      "difficulty": "HARD_BURIED",
+      "acv_usd": 320000.0,
+      "expected_risk_score_range": [70, 90],
+      "expected_risk_level": "HIGH",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-LIA-002",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-GOV-008",
+        "POL-SEC-001",
+        "POL-SLA-003",
+        "POL-SEC-009"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-SEC-006",
+        "POL-SEC-007"
+      ],
+      "key_violation_phrases": [
+        "strictly limited to the average monthly platform base fee paid by Customer in the preceding three (3) months ($26,666.66 USD)",
+        "within seven (7) business days (\"Net 7\")",
+        "surcharge of four and one-half percent (4.5%) per month",
+        "at least twenty (20) calendar days prior to expiration",
+        "London Court of International Arbitration (LCIA)",
+        "within seventy-two (72) hours following complete forensic verification"
+      ]
+    },
+    {
+      "contract_file": "contract_07_iot_telematics_hardware_software.txt",
+      "vendor_name": "FleetPulse Telematics Systems, Inc.",
+      "sector": "IoT & Telematics",
+      "difficulty": "ADVERSARIAL",
+      "acv_usd": 140000.0,
+      "expected_risk_score_range": [60, 80],
+      "expected_risk_level": "HIGH",
+      "expected_executive_verdict": "REVISE_AND_RESUBMIT",
+      "expected_violated_policy_ids": [
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-TRM-005",
+        "POL-PAY-004",
+        "POL-SEC-001",
+        "POL-SEC-009"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "not exceed the subscription fees received by FleetPulse from Customer in the one (1) month immediately preceding ($11,666.00 USD)",
+        "does not provide monetary service credits",
+        "at least fifteen (15) days prior to the expiration date",
+        "within thirty (30) days from invoice date (\"Net 30\")",
+        "within forty-eight (48) hours"
+      ]
+    },
+    {
+      "contract_file": "contract_08_marketing_martech_data_scraping.txt",
+      "vendor_name": "OmniLeads Demand Generation AI LLC",
+      "sector": "MarTech & Demand Gen",
+      "difficulty": "HARD_BURIED",
+      "acv_usd": 95000.0,
+      "expected_risk_score_range": [85, 100],
+      "expected_risk_level": "CRITICAL",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-DAT-010",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-001",
+        "POL-SEC-006"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "license to de-identify, vectorize, index, and aggregate all uploaded contact records... to train",
+        "ABSOLUTELY CAPPED AT TEN THOUSAND US DOLLARS ($10,000.00 USD)",
+        "ninety-nine percent (99.0%) during normal business hours",
+        "within thirty (30) days of receipt (\"Net 30\")",
+        "within forty-eight (48) hours"
+      ]
+    },
+    {
+      "contract_file": "contract_09_healthcare_bpa_near_compliant.txt",
+      "vendor_name": "MediPulse Clinical Analytics Corp.",
+      "sector": "Healthcare & Life Sciences",
+      "difficulty": "MODERATE",
+      "acv_usd": 420000.0,
+      "expected_risk_score_range": [15, 30],
+      "expected_risk_level": "LOW",
+      "expected_executive_verdict": "APPROVE_WITH_CONDITIONS",
+      "expected_violated_policy_ids": [
+        "POL-TRM-005"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-SEC-001",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-SEC-006",
+        "POL-SEC-007",
+        "POL-GOV-008",
+        "POL-SEC-009"
+      ],
+      "key_violation_phrases": [
+        "written notice of termination at least forty-five (45) days prior to the expiration date"
+      ]
+    },
+    {
+      "contract_file": "contract_10_devops_ci_cd_unlimited_indemnity.txt",
+      "vendor_name": "CloudBuild Runner Systems, Inc.",
+      "sector": "DevOps & Cloud CI/CD",
+      "difficulty": "ADVERSARIAL",
+      "acv_usd": 75000.0,
+      "expected_risk_score_range": [70, 90],
+      "expected_risk_level": "CRITICAL",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-001",
+        "POL-SEC-007",
+        "POL-GOV-008"
+      ],
+      "expected_compliant_policy_ids": [],
+      "key_violation_phrases": [
+        "shall defend, indemnify, and hold harmless Provider without limitation",
+        "not exceed One Thousand US Dollars ($1,000.00 USD)",
+        "within fifteen (15) days of receipt (\"Net 15\")",
+        "at least fourteen (14) days prior to the conclusion",
+        "within seventy-two (72) hours",
+        "laws of the State of Texas"
+      ]
+    },
+    {
+      "contract_file": "contract_11_customer_service_omnichannel_ai.txt",
+      "vendor_name": "VoiceFrontier Omnichannel Systems, Inc.",
+      "sector": "Contact Center AI",
+      "difficulty": "HARD_BURIED",
+      "acv_usd": 210000.0,
+      "expected_risk_score_range": [80, 95],
+      "expected_risk_level": "CRITICAL",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-DAT-010",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-001"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "license to analyze, process, and retain anonymized voice recordings... to enhance foundational speech recognition models",
+        "limited to one times (1.0x) the fees paid",
+        "targets 99.0% monthly uptime",
+        "within twenty (20) days of receipt (\"Net 20\")",
+        "liquidated termination charge of Ten Thousand US Dollars ($10,000.00 USD)",
+        "within five (5) business days"
+      ]
+    },
+    {
+      "contract_file": "contract_12_erp_logistics_complex_hybrid.txt",
+      "vendor_name": "LogiCore Global Enterprise Solutions Corp.",
+      "sector": "Supply Chain / ERP",
+      "difficulty": "HARD_BURIED",
+      "acv_usd": 650000.0,
+      "expected_risk_score_range": [65, 85],
+      "expected_risk_level": "HIGH",
+      "expected_executive_verdict": "REVISE_AND_RESUBMIT",
+      "expected_violated_policy_ids": [
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-001",
+        "POL-SEC-006"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "RESTRICTED TO THE FEES ACTUALLY PAID BY CUSTOMER IN THE PRECEDING SIX (6) MONTHS (EQUAL TO 0.5x ACV",
+        "uptime figures represent non-binding operational targets only",
+        "within thirty (30) days from invoice receipt (\"Net 30\")",
+        "at least thirty (30) days prior to expiration",
+        "within seventy-two (72) hours"
+      ]
+    },
+    {
+      "contract_file": "contract_13_cyber_threat_intelligence_feed.txt",
+      "vendor_name": "DarkWatch Cyber Intelligence AG",
+      "sector": "Threat Intelligence",
+      "difficulty": "ADVERSARIAL",
+      "acv_usd": 160000.0,
+      "expected_risk_score_range": [70, 90],
+      "expected_risk_level": "HIGH",
+      "expected_executive_verdict": "REJECT",
+      "expected_violated_policy_ids": [
+        "POL-GOV-008",
+        "POL-LIA-002",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-007"
+      ],
+      "expected_compliant_policy_ids": [],
+      "key_violation_phrases": [
+        "Commercial Court of the Canton of Zurich, Switzerland",
+        "not exceed Ten Thousand Swiss Francs (CHF 10,000.00)",
+        "within fifteen (15) days (\"Net 15\")",
+        "forty-five (45) days prior to year-end",
+        "does not permit external customer audits nor distribute third-party SOC 2"
+      ]
+    },
+    {
+      "contract_file": "contract_14_workplace_collaboration_freemium_upsell.txt",
+      "vendor_name": "SynapseCollab Workspace Technologies, Inc.",
+      "sector": "Collaboration SaaS",
+      "difficulty": "HARD_BURIED",
+      "acv_usd": 110000.0,
+      "expected_risk_score_range": [65, 85],
+      "expected_risk_level": "HIGH",
+      "expected_executive_verdict": "REVISE_AND_RESUBMIT",
+      "expected_violated_policy_ids": [
+        "POL-LIA-002",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SLA-003"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "online Terms of Service shall strictly supersede, control, and govern",
+        "not exceed Twenty Thousand US Dollars ($20,000.00 USD)",
+        "within fifteen (15) days of presentation (\"Net 15\")",
+        "at least ten (10) days prior to the expiration"
+      ]
+    },
+    {
+      "contract_file": "contract_15_database_dbas_tier1_mission_critical.txt",
+      "vendor_name": "QuantumScale Distributed Database Systems Inc.",
+      "sector": "Mission-Critical Cloud DB",
+      "difficulty": "MODERATE",
+      "acv_usd": 480000.0,
+      "expected_risk_score_range": [15, 30],
+      "expected_risk_level": "LOW",
+      "expected_executive_verdict": "APPROVE_WITH_CONDITIONS",
+      "expected_violated_policy_ids": [
+        "POL-SEC-009"
+      ],
+      "expected_compliant_policy_ids": [
+        "POL-SEC-001",
+        "POL-LIA-002",
+        "POL-SLA-003",
+        "POL-PAY-004",
+        "POL-TRM-005",
+        "POL-SEC-006",
+        "POL-SEC-007",
+        "POL-GOV-008"
+      ],
+      "key_violation_phrases": [
+        "publishes notice of newly onboarded cloud hosting and storage subprocessors exclusively via an authenticated RSS syndication feed. Customer failure to object via certified mail within five (5) business days"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "policy_id": "POL-SEC-001",
+    "title": "Data Breach and Security Incident Notification Window",
+    "category": "DATA_PRIVACY_SECURITY",
+    "rule_summary": "Vendor must notify Enterprise Security in writing within twenty-four (24) hours of discovering or suspecting any unauthorized access, breach, or compromise of customer data.",
+    "minimum_requirement": "Maximum 24 hours breach notification window; must include incident scope, affected data types, and initial containment actions.",
+    "severity_if_violated": "CRITICAL",
+    "redline_guidance": "Strike any notification window longer than 24 hours (e.g. 48h, 72h, or 'as soon as reasonably practicable'). Insert: 'Vendor shall notify Customer in writing within twenty-four (24) hours of becoming aware of any confirmed or suspected Security Incident or Data Breach.'"
+  },
+  {
+    "policy_id": "POL-LIA-002",
+    "title": "Limitation of Liability Floor and Mandatory Carve-outs",
+    "category": "LIABILITY",
+    "rule_summary": "Vendor liability cap must be at least two times (2x) the Annual Contract Value (ACV). Caps must explicitly exclude gross negligence, willful misconduct, breach of confidentiality, and IP indemnification obligations.",
+    "minimum_requirement": "Liability cap >= 2x ACV (or $1,000,000, whichever is greater). Unlimited liability for gross negligence, intentional misconduct, IP infringement, and confidentiality breaches.",
+    "severity_if_violated": "CRITICAL",
+    "redline_guidance": "Reject fixed dollar caps under $1M or 1x fee caps. Insert: 'In no event shall either party's aggregate liability exceed two times (2x) the total fees paid or payable in the preceding twelve (12) months; provided, however, that the foregoing limitation shall not apply to: (i) gross negligence or willful misconduct; (ii) breach of Section [Confidentiality]; or (iii) indemnification obligations under Section [Indemnity].'"
+  },
+  {
+    "policy_id": "POL-SLA-003",
+    "title": "Cloud Service Level Agreement and Service Credits",
+    "category": "SLA",
+    "rule_summary": "SaaS and cloud infrastructure services must guarantee a minimum of ninety-nine and nine-tenths percent (99.9%) monthly uptime, backed by graduated financial service credits starting at 10% for downtime.",
+    "minimum_requirement": "Uptime >= 99.9% monthly; service credits ranging from 10% (below 99.9%) to 50% (below 98.0%) of monthly fees; credits applicable against upcoming invoices or refundable in cash upon contract expiration.",
+    "severity_if_violated": "HIGH",
+    "redline_guidance": "Strike SLA targets below 99.9% or 'best effort' clauses. Insert: 'Vendor guarantees 99.9% Monthly Uptime Percentage. If Vendor fails to meet this SLA in any calendar month, Customer shall receive a Service Credit equal to 10% of monthly fees for uptime between 99.0% and 99.9%, and 25% for uptime below 99.0%.'"
+  },
+  {
+    "policy_id": "POL-PAY-004",
+    "title": "Enterprise Commercial Payment Terms and Late Penalties",
+    "category": "PAYMENT",
+    "rule_summary": "Standard invoice payment terms must be at least Net 45 or Net 60 days from receipt of a valid, undisputed invoice. Late payment interest penalties cannot exceed 1.0% per month, and early settlement discount of 2% Net 10 is preferred.",
+    "minimum_requirement": "Payment terms >= Net 45 days. Monthly late fees capped at 1.0% (12% per annum) or legal maximum, whichever is lower. Right to withhold disputed amounts without service suspension.",
+    "severity_if_violated": "MEDIUM",
+    "redline_guidance": "Replace Net 15 or Net 30 with Net 45. Cap late interest at 1.0% per month. Insert: 'Customer shall remit payment within forty-five (45) days of receipt of invoice. Customer reserves the right to withhold good-faith disputed amounts without incurring penalties or service suspension.'"
+  },
+  {
+    "policy_id": "POL-TRM-005",
+    "title": "Auto-Renewal Notice Window and Termination for Convenience",
+    "category": "TERMINATION",
+    "rule_summary": "Contracts must not auto-renew without at least sixty (60) days prior written notice to Customer. Customer must retain the right to terminate the contract for convenience upon thirty (30) days prior written notice without penalty.",
+    "minimum_requirement": "Renewal notice window >= 60 days before expiration. Mandatory termination for convenience with <= 30 days notice and pro-rata refund of unearned prepaid fees.",
+    "severity_if_violated": "HIGH",
+    "redline_guidance": "Reject automatic renewals with short notice windows (e.g. 10 or 30 days). Insert: 'This Agreement shall not automatically renew unless Vendor provides written notice at least sixty (60) days prior to expiration. Customer may terminate this Agreement for convenience at any time upon thirty (30) days prior written notice, and Vendor shall refund all unearned prepaid fees on a pro-rata basis.'"
+  },
+  {
+    "policy_id": "POL-SEC-006",
+    "title": "Data Sovereignty and Encryption Standards",
+    "category": "DATA_PRIVACY_SECURITY",
+    "rule_summary": "All customer data must be encrypted in transit using TLS 1.3 (minimum TLS 1.2) and at rest using AES-256 bit encryption. Customer data must remain stored within the United States or designated enterprise operating geography.",
+    "minimum_requirement": "Encryption in transit (TLS 1.2+ / TLS 1.3) and at rest (AES-256). Explicit geographic data residency guarantee in US data centers.",
+    "severity_if_violated": "HIGH",
+    "redline_guidance": "Insert: 'Vendor shall encrypt all Customer Data in transit using TLS 1.3 and at rest using AES-256. Vendor warrants that Customer Data will be stored and processed exclusively in secure tier-4 data centers located within the United States.'"
+  },
+  {
+    "policy_id": "POL-SEC-007",
+    "title": "Independent Security Audits and SOC 2 Type II Certification",
+    "category": "DATA_PRIVACY_SECURITY",
+    "rule_summary": "Vendor must maintain active AICPA SOC 2 Type II or ISO/IEC 27001 certifications covering all in-scope systems, provide annual audit reports to Customer, and permit customer security audits upon reasonable notice.",
+    "minimum_requirement": "Active SOC 2 Type II report renewed annually covering Security, Availability, and Confidentiality trust principles; annual third-party penetration testing summary provided upon request.",
+    "severity_if_violated": "HIGH",
+    "redline_guidance": "Strike clauses offering only SOC 2 Type I or self-assessments. Insert: 'Vendor shall maintain an annual AICPA SOC 2 Type II audit certification and provide the current report to Customer upon request. Customer or its designated auditor may perform an annual security review upon fifteen (15) days notice.'"
+  },
+  {
+    "policy_id": "POL-GOV-008",
+    "title": "Governing Law and Dispute Jurisdiction",
+    "category": "GOVERNANCE",
+    "rule_summary": "Agreements must be governed by the laws of the State of Delaware, California, or New York, without regard to conflict of law principles. Dispute resolution must be in state or federal courts located in the designated jurisdiction, with mutual waiver of jury trial.",
+    "minimum_requirement": "Governing law must be Delaware, California, or New York. No foreign offshore or unfamiliar state venues.",
+    "severity_if_violated": "MEDIUM",
+    "redline_guidance": "Strike foreign jurisdictions (e.g. Cayman Islands, UK, Switzerland) or unfavorable states. Replace with: 'This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without giving effect to any choice of law rules.'"
+  },
+  {
+    "policy_id": "POL-SEC-009",
+    "title": "Subprocessor Advance Notice and Right to Object",
+    "category": "DATA_PRIVACY_SECURITY",
+    "rule_summary": "Vendor must provide Customer at least thirty (30) days prior written notice before onboarding any new subprocessor with access to Customer Data. Customer retains the right to reasonably object and terminate if objections cannot be resolved.",
+    "minimum_requirement": "Minimum 30 days advance written notice of new subprocessors; customer right to object on data security or compliance grounds.",
+    "severity_if_violated": "MEDIUM",
+    "redline_guidance": "Strike clauses allowing unrestricted vendor subprocessor appointments. Insert: 'Vendor shall notify Customer in writing at least thirty (30) days prior to engaging any new subprocessor. Customer may object within thirty (30) days, and if the parties cannot resolve the objection, Customer may terminate without penalty.'"
+  },
+  {
+    "policy_id": "POL-DAT-010",
+    "title": "Prohibition of AI Training on Customer Data and IP Ownership",
+    "category": "DATA_PRIVACY_SECURITY",
+    "rule_summary": "Customer retains all right, title, and intellectual property ownership in all customer data and derivative works. Vendor is strictly prohibited from using customer data, prompts, or outputs to train, fine-tune, or improve any machine learning or artificial intelligence models.",
+    "minimum_requirement": "100% customer IP ownership; absolute restriction against using customer data for model training, algorithmic improvement, or telemetry indexing.",
+    "severity_if_violated": "CRITICAL",
+    "redline_guidance": "Strike any clause granting vendor a license to use customer data for 'model improvement', 'AI training', or 'product optimization'. Insert: 'Vendor shall not use, access, or analyze Customer Data to train, fine-tune, calibrate, or evaluate any artificial intelligence, machine learning, or statistical algorithms.'"
+  }
+]

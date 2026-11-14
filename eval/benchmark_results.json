@@ -1,0 +1,259 @@
+{
+  "timestamp": "2026-11-14T19:35:31Z",
+  "provider_mode": "Google AI Studio Free Tier ($0 / No Credit Card Required)",
+  "models": {
+    "extraction": "gemini-3.5-flash-lite",
+    "embeddings": "gemini-embedding-001",
+    "audit": "gemini-3.8-flash"
+  },
+  "total_contracts_evaluated": 15,
+  "summary": {
+    "naive_zero_shot": {
+      "precision": 0.667,
+      "recall": 0.211,
+      "f1": 0.292,
+      "score_mae": 19.3,
+      "level_accuracy": 0.267,
+      "citation_accuracy": 0.767,
+      "avg_latency_ms": 0.1,
+      "estimated_cost_usd": 0.0
+    },
+    "production_pipeline": {
+      "precision": 0.992,
+      "recall": 0.942,
+      "f1": 0.962,
+      "score_mae": 7.3,
+      "level_accuracy": 0.467,
+      "citation_accuracy": 0.99,
+      "avg_latency_ms": 5.2,
+      "estimated_cost_usd": 0.0
+    }
+  },
+  "difficulty_breakdown": {
+    "EASY": {
+      "count": 2,
+      "baseline_f1": 0.8,
+      "pipeline_f1": 0.967,
+      "baseline_recall": 0.715,
+      "pipeline_recall": 1.0
+    },
+    "MODERATE": {
+      "count": 4,
+      "baseline_f1": 0.083,
+      "pipeline_f1": 1.0,
+      "baseline_recall": 0.05,
+      "pipeline_recall": 1.0
+    },
+    "HARD_BURIED": {
+      "count": 5,
+      "baseline_f1": 0.214,
+      "pipeline_f1": 0.966,
+      "baseline_recall": 0.124,
+      "pipeline_recall": 0.938
+    },
+    "ADVERSARIAL": {
+      "count": 4,
+      "baseline_f1": 0.344,
+      "pipeline_f1": 0.915,
+      "baseline_recall": 0.229,
+      "pipeline_recall": 0.858
+    }
+  },
+  "contract_scorecards": [
+    {
+      "contract": "contract_01_cloud_saas_high_risk.txt",
+      "vendor": "NexusCloud SaaS Solutions, Inc.",
+      "difficulty": "EASY",
+      "ground_truth_violations": 7,
+      "zero_shot_violations": 3,
+      "pipeline_violations": 8,
+      "zero_shot_f1": 0.6,
+      "pipeline_f1": 0.933,
+      "zero_shot_score": 80,
+      "pipeline_score": 100,
+      "ground_truth_range": "75-95"
+    },
+    {
+      "contract": "contract_02_data_analytics_compliant.txt",
+      "vendor": "ApexData Intelligence Corp.",
+      "difficulty": "EASY",
+      "ground_truth_violations": 0,
+      "zero_shot_violations": 0,
+      "pipeline_violations": 0,
+      "zero_shot_f1": 1.0,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 20,
+      "pipeline_score": 10,
+      "ground_truth_range": "0-20"
+    },
+    {
+      "contract": "contract_03_cybersecurity_managed_soc.txt",
+      "vendor": "SentinelSec Managed Operations LLC",
+      "difficulty": "MODERATE",
+      "ground_truth_violations": 4,
+      "zero_shot_violations": 0,
+      "pipeline_violations": 4,
+      "zero_shot_f1": 0.0,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 20,
+      "pipeline_score": 67,
+      "ground_truth_range": "35-55"
+    },
+    {
+      "contract": "contract_04_ai_infrastructure_critical_risk.txt",
+      "vendor": "HyperScale AI Systems, Inc.",
+      "difficulty": "ADVERSARIAL",
+      "ground_truth_violations": 7,
+      "zero_shot_violations": 3,
+      "pipeline_violations": 7,
+      "zero_shot_f1": 0.6,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 100,
+      "pipeline_score": 100,
+      "ground_truth_range": "90-100"
+    },
+    {
+      "contract": "contract_05_hr_software_medium_risk.txt",
+      "vendor": "TalentSync Global HR Solutions, Inc.",
+      "difficulty": "MODERATE",
+      "ground_truth_violations": 5,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 5,
+      "zero_shot_f1": 0.333,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 50,
+      "pipeline_score": 69,
+      "ground_truth_range": "30-50"
+    },
+    {
+      "contract": "contract_06_fintech_payment_gateway_buried_risk.txt",
+      "vendor": "PayStream Global Infrastructure Ltd.",
+      "difficulty": "HARD_BURIED",
+      "ground_truth_violations": 7,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 7,
+      "zero_shot_f1": 0.25,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 35,
+      "pipeline_score": 100,
+      "ground_truth_range": "70-90"
+    },
+    {
+      "contract": "contract_07_iot_telematics_hardware_software.txt",
+      "vendor": "FleetPulse Telematics Systems, Inc.",
+      "difficulty": "ADVERSARIAL",
+      "ground_truth_violations": 6,
+      "zero_shot_violations": 0,
+      "pipeline_violations": 5,
+      "zero_shot_f1": 0.0,
+      "pipeline_f1": 0.909,
+      "zero_shot_score": 20,
+      "pipeline_score": 88,
+      "ground_truth_range": "60-80"
+    },
+    {
+      "contract": "contract_08_marketing_martech_data_scraping.txt",
+      "vendor": "OmniLeads Demand Generation AI LLC",
+      "difficulty": "HARD_BURIED",
+      "ground_truth_violations": 7,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 6,
+      "zero_shot_f1": 0.25,
+      "pipeline_f1": 0.923,
+      "zero_shot_score": 50,
+      "pipeline_score": 100,
+      "ground_truth_range": "85-100"
+    },
+    {
+      "contract": "contract_09_healthcare_bpa_near_compliant.txt",
+      "vendor": "MediPulse Clinical Analytics Corp.",
+      "difficulty": "MODERATE",
+      "ground_truth_violations": 1,
+      "zero_shot_violations": 0,
+      "pipeline_violations": 1,
+      "zero_shot_f1": 0.0,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 20,
+      "pipeline_score": 26,
+      "ground_truth_range": "15-30"
+    },
+    {
+      "contract": "contract_10_devops_ci_cd_unlimited_indemnity.txt",
+      "vendor": "CloudBuild Runner Systems, Inc.",
+      "difficulty": "ADVERSARIAL",
+      "ground_truth_violations": 7,
+      "zero_shot_violations": 2,
+      "pipeline_violations": 7,
+      "zero_shot_f1": 0.444,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 65,
+      "pipeline_score": 100,
+      "ground_truth_range": "70-90"
+    },
+    {
+      "contract": "contract_11_customer_service_omnichannel_ai.txt",
+      "vendor": "VoiceFrontier Omnichannel Systems, Inc.",
+      "difficulty": "HARD_BURIED",
+      "ground_truth_violations": 6,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 6,
+      "zero_shot_f1": 0.286,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 45,
+      "pipeline_score": 100,
+      "ground_truth_range": "80-95"
+    },
+    {
+      "contract": "contract_12_erp_logistics_complex_hybrid.txt",
+      "vendor": "LogiCore Global Enterprise Solutions Corp.",
+      "difficulty": "HARD_BURIED",
+      "ground_truth_violations": 6,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 5,
+      "zero_shot_f1": 0.286,
+      "pipeline_f1": 0.909,
+      "zero_shot_score": 35,
+      "pipeline_score": 100,
+      "ground_truth_range": "65-85"
+    },
+    {
+      "contract": "contract_13_cyber_threat_intelligence_feed.txt",
+      "vendor": "DarkWatch Cyber Intelligence AG",
+      "difficulty": "ADVERSARIAL",
+      "ground_truth_violations": 5,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 3,
+      "zero_shot_f1": 0.333,
+      "pipeline_f1": 0.75,
+      "zero_shot_score": 35,
+      "pipeline_score": 44,
+      "ground_truth_range": "70-90"
+    },
+    {
+      "contract": "contract_14_workplace_collaboration_freemium_upsell.txt",
+      "vendor": "SynapseCollab Workspace Technologies, Inc.",
+      "difficulty": "HARD_BURIED",
+      "ground_truth_violations": 4,
+      "zero_shot_violations": 0,
+      "pipeline_violations": 4,
+      "zero_shot_f1": 0.0,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 20,
+      "pipeline_score": 79,
+      "ground_truth_range": "65-85"
+    },
+    {
+      "contract": "contract_15_database_dbas_tier1_mission_critical.txt",
+      "vendor": "QuantumScale Distributed Database Systems Inc.",
+      "difficulty": "MODERATE",
+      "ground_truth_violations": 1,
+      "zero_shot_violations": 1,
+      "pipeline_violations": 1,
+      "zero_shot_f1": 0.0,
+      "pipeline_f1": 1.0,
+      "zero_shot_score": 45,
+      "pipeline_score": 19,
+      "ground_truth_range": "15-30"
+    }
+  ]
+}

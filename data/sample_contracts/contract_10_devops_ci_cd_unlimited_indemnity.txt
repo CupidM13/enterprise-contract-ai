@@ -1,0 +1,26 @@
+CLOUD BUILD & CONTINUOUS INTEGRATION RUNNER AGREEMENT
+CLOUDBUILD RUNNER SYSTEMS, INC.
+
+This Developer Infrastructure Agreement is made effective September 15, 2026, by and between CloudBuild Runner Systems, Inc., a Texas corporation ("Provider"), and Enterprise Client Corp. ("Customer").
+
+1. CI/CD HOSTED RUNNERS
+Provider grants access to dedicated ephemeral container build runners. The annual subscription cost is Seventy-Five Thousand US Dollars ($75,000.00 USD), invoiced annually upfront.
+
+2. COMMERCIAL TERMS
+Invoices are due within fifteen (15) days of receipt ("Net 15"). Late payments accrue interest at three percent (3.0%) per month.
+
+3. TERM AND AUTOMATIC EXTENSION
+The Agreement term is twelve (12) months. The Agreement auto-renews for consecutive one-year terms unless either party submits written non-renewal notice at least fourteen (14) days prior to the conclusion of the active term. No convenience termination is permitted.
+
+4. UPTIME AND SERVICE LEVELS
+Provider provides hosted runners on a commercially reasonable efforts basis, targeting 99.0% availability during US business hours. Provider does not issue financial service credits for failed build executions or runner downtime.
+
+5. ASYMMETRIC INDEMNIFICATION AND LIABILITY LIMIT
+(a) Customer shall defend, indemnify, and hold harmless Provider without limitation against any claims, losses, costs, or third-party IP litigation arising out of source code, scripts, binaries, or software dependencies compiled or executed on Provider's infrastructure.
+(b) Provider's total aggregate liability under this Agreement shall not exceed One Thousand US Dollars ($1,000.00 USD).
+
+6. SECURITY PROTOCOLS AND AUDIT REPORTS
+Provider maintains standard cloud security procedures and publishes an AICPA SOC 2 Type I readiness assessment upon request. Provider will report verified data breaches within seventy-two (72) hours.
+
+7. GOVERNING LAW
+This Agreement shall be governed exclusively by the laws of the State of Texas, with venue in Travis County, Austin, Texas.

@@ -1,0 +1,25 @@
+FLEET TELEMATICS & IOT CLOUD PLATFORM AGREEMENT
+FLEETPULSE TELEMATICS SYSTEMS, INC.
+
+This Fleet Telematics Master Agreement ("Agreement") is made effective June 1, 2026, by and between FleetPulse Telematics Systems, Inc., a Delaware corporation ("FleetPulse" or "Vendor"), and Enterprise Client Corp. ("Customer").
+
+1. VEHICLE SENSOR HARDWARE AND CLOUD PLATFORM
+Customer subscribes to FleetPulse vehicle telemetry tracking, fuel analytics, and driver safety monitoring services for an enterprise fleet. Annual platform and data connectivity fees are One Hundred Forty Thousand US Dollars ($140,000.00 USD).
+
+2. BILLING SCHEDULE AND DELINQUENT CHARGES
+Subscription fees are billed annually in advance. Payments are due within thirty (30) days from invoice date ("Net 30"). Late amounts shall accrue interest at the rate of two percent (2.0%) per month or the legal statutory ceiling, whichever is lower.
+
+3. TERM AND MULTI-YEAR RENEWAL LOCK-IN
+The initial term shall run for thirty-six (36) months from installation completion. This Agreement will automatically renew for consecutive twenty-four (24) month periods unless Customer delivers formal written notice of non-renewal at least fifteen (15) days prior to the expiration date. Early termination by Customer without cause is strictly prohibited, and requires immediate payment of one hundred percent (100%) of unamortized sensor hardware costs and remaining monthly subscription fees.
+
+4. AVAILABILITY, CELLULAR COVERAGE, AND SLA DISCLAIMER
+FleetPulse targets ninety-nine and eight-tenths percent (99.8%) uptime for core telemetry servers. However, cellular gateway transmission delays, satellite signal degradation, and routine maintenance windows are excluded from availability calculations. FleetPulse does not provide monetary service credits or invoice rebates for system downtime.
+
+5. RESTRICTION OF LIABILITY
+To the extent permissible by law, FleetPulse's maximum cumulative liability under this Agreement shall not exceed the subscription fees received by FleetPulse from Customer in the one (1) month immediately preceding the event giving rise to liability ($11,666.00 USD). Neither party shall be liable for lost revenues or indirect damages.
+
+6. DATA HANDLING AND SUBCONTRACTORS
+Vehicle location information, GPS telemetry, and engine performance metrics are collected to deliver services. In the event of a verified unauthorized extraction of Customer Data, Vendor shall notify Customer within forty-eight (48) hours. FleetPulse may engage third-party telecommunications carriers and field installation subcontractors without providing advance notice to Customer.
+
+7. GOVERNING JURISDICTION
+This Agreement shall be governed by and interpreted under the laws of the State of Delaware.

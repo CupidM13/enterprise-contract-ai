@@ -1,0 +1,28 @@
+MANAGED SECURITY OPERATIONS SERVICES AGREEMENT
+SENTINELSECS MANAGED OPERATIONS LLC
+
+This Managed Security Operations Services Agreement ("Agreement") is made as of April 10, 2026, by and between SentinelSec Managed Operations LLC, a New York limited liability company ("SentinelSec" or "Provider"), and Enterprise Client Corp. ("Customer").
+
+1. SERVICES AND COMPENSATION
+Provider shall deliver 24x7x365 managed Security Operations Center (SOC) monitoring and incident response services. Total annual service fees shall be One Hundred Eighty Thousand US Dollars ($180,000.00 USD), billed quarterly.
+
+2. PAYMENT TERMS
+Invoices are due and payable thirty (30) days from invoice date ("Net 30"). Late payments shall accrue interest at 1.5% per month.
+
+3. TERM AND RENEWAL
+The initial term shall be twenty-four (24) months. This Agreement shall automatically renew for additional twelve (12) month terms unless either party provides written notice of non-renewal at least forty-five (45) days prior to the expiration of the current term.
+
+4. SERVICE LEVELS AND UPTIME
+Provider guarantees 99.9% availability of its monitoring ingestion pipeline. If Provider fails to achieve 99.9% uptime in any given month, Customer shall receive an 8% service credit against the following quarterly invoice.
+
+5. LIMITATION OF LIABILITY
+EXCEPT FOR CLAIMS ARISING FROM GROSS NEGLIGENCE OR WILLFUL MISCONDUCT, PROVIDER'S TOTAL CUMULATIVE LIABILITY UNDER THIS AGREEMENT SHALL BE LIMITED TO THE TOTAL FEES ACTUALLY PAID BY CUSTOMER IN THE PRECEDING TWELVE (12) MONTHS (1.0x ACV, EQUAL TO $180,000.00 USD).
+
+6. SECURITY INCIDENT NOTIFICATION
+Provider shall notify Customer's primary security contact within forty-eight (48) hours of verifying a critical vulnerability or data security breach affecting Customer's network or data environment.
+
+7. AUDIT CERTIFICATIONS
+Provider maintains an active SOC 2 Type II report and shall furnish a copy upon Customer's written request once per calendar year.
+
+8. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of New York, without giving effect to conflicts of laws provisions. The parties consent to jurisdiction in the Borough of Manhattan, New York.

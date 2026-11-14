@@ -1,0 +1,26 @@
+ENTERPRISE LOGISTICS & SUPPLY CHAIN CLOUD AGREEMENT
+LOGICORE GLOBAL ENTERPRISE SOLUTIONS CORP.
+
+This Cloud Master Subscription Agreement ("Agreement") is dated November 2, 2026, by and between LogiCore Global Enterprise Solutions Corp., a New York corporation ("LogiCore" or "Vendor"), and Enterprise Client Corp. ("Customer").
+
+1. SUPPLY CHAIN MANAGEMENT PLATFORM
+Vendor licenses its multi-facility ERP warehouse and logistics tracking software. Annual fees are Six Hundred Fifty Thousand US Dollars ($650,000.00 USD), invoiced on a semi-annual schedule.
+
+2. COMMERCIAL TERMS
+Invoices are due within thirty (30) days from invoice receipt ("Net 30"). Overdue payments shall accrue interest at 1.5% per month.
+
+3. DURATION AND RENEWAL
+The initial subscription term is thirty-six (36) months. This Agreement automatically extends for consecutive twelve (12) month terms unless non-renewal notice is submitted in writing at least thirty (30) days prior to expiration. Customer may not terminate for convenience.
+
+4. CONFLICTING SERVICE LEVEL OBJECTIVES
+(a) Master Agreement Section 4: Vendor targets 99.5% system availability.
+(b) Schedule B (Operational Addendum): Notwithstanding any provision in the Master Agreement, uptime figures represent non-binding operational targets only; failure to achieve 99.5% uptime shall not constitute a default or breach of this Agreement, and Vendor shall not be obligated to issue monetary credits, fee abatements, or refunds.
+
+5. LIABILITY CEILING
+VENDOR'S TOTAL CUMULATIVE LIABILITY UNDER THIS AGREEMENT SHALL BE RESTRICTED TO THE FEES ACTUALLY PAID BY CUSTOMER IN THE PRECEDING SIX (6) MONTHS (EQUAL TO 0.5x ACV, OR $325,000.00 USD).
+
+6. DATA RESIDENCY AND REPLICATION
+Customer Data may be stored, processed, and replicated across Vendor server clusters situated in North America, Europe, and Asia-Pacific. Vendor will communicate security incident notifications within seventy-two (72) hours.
+
+7. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of New York.

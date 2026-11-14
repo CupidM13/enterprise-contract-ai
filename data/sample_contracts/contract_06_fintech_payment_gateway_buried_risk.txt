@@ -1,0 +1,31 @@
+PAYMENT GATEWAY & FINANCIAL INFRASTRUCTURE MASTER AGREEMENT
+PAYSTREAM GLOBAL INFRASTRUCTURE LTD.
+
+This Master Financial Infrastructure Services Agreement ("Agreement") is entered into as of May 12, 2026, by and between PayStream Global Infrastructure Ltd., a company organized under the laws of England and Wales, with registered offices at 25 Bank Street, Canary Wharf, London, E14 5JP ("PayStream" or "Vendor"), and Enterprise Client Corp. ("Customer").
+
+1. PAYMENT INFRASTRUCTURE SERVICES & TRANSACTION COMMITMENTS
+PayStream provides transaction routing, tokenization, and settlement processing APIs. The annual platform base fee is Three Hundred Twenty Thousand US Dollars ($320,000.00 USD), invoiced on a quarterly installment schedule.
+
+2. COMMERCIAL INVOICING AND SETTLEMENT
+Invoices are generated on the 1st of each calendar quarter. Customer agrees that all undisputed and disputed invoice amounts shall be settled via direct electronic funds transfer within seven (7) business days ("Net 7"). Any invoice not cleared within seven days shall incur a late payment surcharge of four and one-half percent (4.5%) per month. Customer explicitly waives any right of setoff or withholding against processing reserves.
+
+3. DURATION AND RENEWAL MECHANISM
+The initial term shall be twenty-four (24) months from the Effective Date. This Agreement shall automatically renew for additional twenty-four (24) month periods unless either party delivers written notice of intent not to renew at least twenty (20) calendar days prior to expiration. Customer may not terminate this Agreement for convenience prior to the expiration of the full 24-month term.
+
+4. PLATFORM AVAILABILITY AND SERVICE CREDITS
+Vendor will make reasonable operational efforts to maintain 99.5% uptime across transaction processing endpoints. If availability drops below 99.0% in any calendar month, Customer may claim a 5% credit on base monthly platform fees, provided that network connectivity delays and third-party card brand network disruptions are completely excluded from calculations.
+
+5. ASYMMETRIC INDEMNIFICATION AND LIABILITY CAP
+(a) Customer shall defend, indemnify, and hold harmless PayStream, its clearing banks, and affiliates from and against any and all claims, fines, chargeback disputes, scheme penalties, and regulatory assessments arising out of Customer transactions.
+(b) PayStream's maximum aggregate liability arising out of or related to this Agreement, whether in contract, tort, or statutory warranty, shall be strictly limited to the average monthly platform base fee paid by Customer in the preceding three (3) months ($26,666.66 USD). In no event shall PayStream be liable for indirect, incidental, or consequential damages.
+
+6. INFORMATION SECURITY, PCI-DSS, AND BREACH DISCLOSURE
+Vendor maintains Level 1 PCI-DSS compliance and AICPA SOC 2 Type II attestation. Customer Data is encrypted in transit using TLS 1.3 and at rest using AES-256 bit keys. As set forth in Exhibit D (Technical Incident Response Procedure), Vendor shall notify Customer in writing within seventy-two (72) hours following complete forensic verification of an unauthorized data breach.
+
+7. SUBPROCESSORS
+PayStream utilizes regional financial gateway partners and payment clearinghouse networks to execute services. Customer authorizes PayStream to appoint financial subprocessors without prior individualized notice.
+
+8. GOVERNING LAW AND LONDON ARBITRATION
+This Agreement, its interpretation, and any non-contractual obligations shall be governed exclusively by the laws of England and Wales. Any controversy or dispute shall be referred to and finally resolved by arbitration administered by the London Court of International Arbitration (LCIA) under the LCIA Rules in London, England.
+
+IN WITNESS WHEREOF, the parties have caused this Agreement to be executed by their duly authorized representatives.

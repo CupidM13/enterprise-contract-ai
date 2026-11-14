@@ -1,0 +1,31 @@
+TALENT MANAGEMENT & HR SAAS AGREEMENT
+TALENTSYNC GLOBAL HR SOLUTIONS, INC.
+
+This Software as a Service Agreement is entered into on May 5, 2026, by TalentSync Global HR Solutions, Inc., a California corporation ("TalentSync"), and Enterprise Client Corp. ("Customer").
+
+1. SERVICES AND SUBSCRIPTION
+TalentSync provides human capital and payroll analytics SaaS. The subscription fee is Eighty-Five Thousand US Dollars ($85,000.00 USD) per year.
+
+2. COMMERCIAL TERMS
+Invoices are due within thirty (30) days ("Net 30"). Late fees are assessed at 1.0% per month.
+
+3. TERM AND AUTOMATIC EXTENSION
+The Agreement has an initial duration of twelve (12) months. It will renew for subsequent one-year periods unless written notice of non-renewal is provided at least thirty (30) days prior to the expiration date. Customer may terminate for convenience with sixty (60) days prior notice.
+
+4. SERVICE COMMITMENT
+TalentSync maintains 99.9% application uptime, with service credits of 10% for downtime exceeding one hour in a given billing cycle.
+
+5. LIABILITY LIMITATION
+TalentSync's maximum aggregate liability shall not exceed one and one-half times (1.5x) the fees paid in the twelve months preceding the incident ($127,500.00 USD). Standard carve-outs apply for willful misconduct.
+
+6. DATA PRIVACY AND SECURITY
+TalentSync warrants that Customer personal data is protected and that notice of any verified data breach will be communicated in writing within twenty-four (24) hours. Data is encrypted using AES-256 and TLS 1.3 standards.
+
+7. COMPLIANCE AUDITS
+TalentSync maintains an AICPA SOC 2 Type I report, and upon request will share its latest Type I assessment with Customer.
+
+8. SUBPROCESSORS
+TalentSync may engage new infrastructure subprocessors by publishing an updated list on its public trust portal. Customer is encouraged to review the portal periodically.
+
+9. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of California.

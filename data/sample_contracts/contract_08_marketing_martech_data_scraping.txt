@@ -1,0 +1,28 @@
+ENTERPRISE DEMAND GENERATION & MARKETING AUTOMATION AGREEMENT
+OMNILEADS DEMAND GENERATION AI LLC
+
+This Master Software Agreement ("Agreement") is entered into as of July 10, 2026, by and between OmniLeads Demand Generation AI LLC, a California limited liability company ("OmniLeads" or "Provider"), and Enterprise Client Corp. ("Customer").
+
+1. ENGAGEMENT AND MARKETING SAAS LICENSING
+Provider licenses its proprietary B2B buyer intent intelligence and email sequencing engine to Customer for an Annual Contract Value ("ACV") of Ninety-Five Thousand US Dollars ($95,000.00 USD).
+
+2. INVOICE PAYMENT CYCLES
+Customer shall satisfy invoices within thirty (30) days of receipt ("Net 30"). Invoices remaining unpaid after 30 days are subject to late finance charges of one and one-half percent (1.5%) per month.
+
+3. TERM AND EXTENSION
+The Agreement shall remain in effect for an initial period of twelve (12) calendar months. It shall renew automatically for successive one-year terms unless either party furnishes written notice of non-renewal at least thirty (30) days prior to the expiration of the current term. Customer may not terminate for convenience during the active term.
+
+4. SERVICE COMMITMENTS
+OmniLeads will endeavor to maintain platform availability at ninety-nine percent (99.0%) during normal business hours. No financial SLA credits or refunds are granted for downtime.
+
+5. RESTRICTIVE LIABILITY PROVISIONS
+EXCEPT FOR WILLFUL MISCONDUCT, OMNILEADS' TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS AND CAUSES OF ACTION ARISING UNDER THIS AGREEMENT SHALL BE ABSOLUTELY CAPPED AT TEN THOUSAND US DOLLARS ($10,000.00 USD).
+
+6. DATA RIGHTS AND ARTIFICIAL INTELLIGENCE TRAINING LICENSE
+Customer retains base title to its uploaded raw CRM customer contact lists. However, Customer hereby grants OmniLeads a perpetual, non-exclusive, worldwide, royalty-free license to de-identify, vectorize, index, and aggregate all uploaded contact records, intent query telemetry, and message engagement signals to train, benchmark, fine-tune, and improve OmniLeads' predictive B2B targeting algorithms and commercial neural networks.
+
+7. DATA SOVEREIGNTY AND REPLICATION
+Customer data may be cached and replicated across globally distributed edge nodes and third-party content distribution networks without geographic restriction. Notice of security breaches will be delivered within forty-eight (48) hours of confirmed incident containment.
+
+8. GOVERNING LAW
+This Agreement shall be construed under the laws of the State of California.

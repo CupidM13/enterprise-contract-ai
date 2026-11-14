@@ -1,0 +1,30 @@
+MASTER SOFTWARE-AS-A-SERVICE AGREEMENT
+NEXUSCLOUD SAAS SOLUTIONS, INC.
+
+This Master Software-as-a-Service Agreement ("Agreement") is made effective as of January 15, 2026 ("Effective Date"), by and between NexusCloud SaaS Solutions, Inc., a Delaware corporation with offices at 100 Technology Plaza, Suite 400, San Francisco, CA 94107 ("Vendor"), and Enterprise Client Corp. ("Customer").
+
+1. SUBSCRIPTION SERVICES AND FEES
+Customer hereby subscribes to the NexusCloud Enterprise CRM Suite. The annual subscription fee shall be One Hundred Twenty Thousand US Dollars ($120,000.00 USD), payable annually in advance.
+
+2. PAYMENT TERMS AND INVOICING
+All invoices issued by Vendor shall be payable within fifteen (15) days of the invoice date ("Net 15"). Any invoice balance remaining unpaid after fifteen (15) days shall accrue interest at the rate of five percent (5.0%) per month or the highest statutory rate permitted by law, whichever is higher. Customer shall not be entitled to withhold or set off any amounts, regardless of whether a dispute has been submitted.
+
+3. TERM AND AUTO-RENEWAL
+The initial term of this Agreement shall commence on the Effective Date and continue for a period of twelve (12) calendar months ("Initial Term"). Upon the expiration of the Initial Term or any renewal term, this Agreement shall automatically renew for successive twelve (12) month periods, unless either party delivers written notice of non-renewal at least ten (10) days prior to the expiration of the then-current term. Customer shall have no right to terminate this Agreement for convenience prior to the expiration of the term.
+
+4. SERVICE LEVEL AGREEMENT (SLA)
+Vendor will use commercially reasonable efforts to make the online Services available with a target monthly uptime percentage of ninety-nine percent (99.0%). Customer acknowledges and agrees that the Services may experience downtime for maintenance, updates, and unforeseen outages. Vendor does not offer any financial service credits, invoice rebates, or monetary compensation for failure to achieve the target uptime.
+
+5. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL VENDOR, ITS AFFILIATES, OFFICERS, DIRECTORS, OR AGENTS BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING FROM OR RELATING TO THIS AGREEMENT. VENDOR'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, WHETHER UNDER CONTRACT, TORT (INCLUDING NEGLIGENCE), WARRANTY, OR OTHERWISE, SHALL BE STRICTLY LIMITED TO FIVE THOUSAND US DOLLARS ($5,000.00 USD). THIS LIMITATION SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE.
+
+6. DATA PRIVACY, SECURITY, AND INCIDENT NOTIFICATION
+Vendor shall maintain reasonable physical and technological safeguards to protect Customer Data. In the event Vendor determines that a confirmed security breach has compromised unencrypted Customer personal information, Vendor shall notify Customer in writing within seventy-two (72) hours following complete forensic verification of the incident. Customer Data may be replicated and stored in offshore facilities at Vendor's discretion.
+
+7. SUBPROCESSORS
+Vendor reserves the unrestricted right to engage third-party service providers, independent contractors, and infrastructure subprocessors to deliver the Services without providing prior notice to Customer or obtaining Customer's prior consent.
+
+8. GOVERNING LAW AND VENUE
+This Agreement and any dispute or controversy arising out of or related to this Agreement shall be governed exclusively by, and construed in accordance with, the laws of the Cayman Islands, without giving effect to conflicts of law principles. Any legal action or proceeding shall be instituted exclusively in the courts of George Town, Grand Cayman.
+
+IN WITNESS WHEREOF, the parties have executed this Master Software-as-a-Service Agreement as of the Effective Date.

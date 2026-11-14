@@ -1,0 +1,28 @@
+CONVERSATIONAL AI & OMNICHANNEL CONTACT CENTER AGREEMENT
+VOICEFRONTIER OMNICHANNEL SYSTEMS, INC.
+
+This Master Platform Agreement is entered into on October 5, 2026, by and between VoiceFrontier Omnichannel Systems, Inc., a Delaware corporation ("VoiceFrontier" or "Vendor"), and Enterprise Client Corp. ("Customer").
+
+1. GENERATIVE AI VOICEBOT & MESSAGING SUITE
+Vendor provides autonomous AI agent contact center routing and live transcription. Total Annual Contract Value is Two Hundred Ten Thousand US Dollars ($210,000.00 USD).
+
+2. BILLING & FEES
+Invoices are payable within twenty (20) days of receipt ("Net 20"). Delinquent amounts are subject to a three percent (3.0%) monthly finance charge.
+
+3. TERM AND CANCELLATION PENALTY
+The Initial Term shall be twenty-four (24) months. The contract renews automatically for successive 24-month terms unless notice of non-renewal is delivered at least thirty (30) days prior to the expiration of the current term. Early cancellation by Customer requires payment of a liquidated termination charge of Ten Thousand US Dollars ($10,000.00 USD) plus fifty percent of remaining contract value.
+
+4. SERVICE AVAILABILITY
+Vendor targets 99.0% monthly uptime. If uptime drops below 99.0%, Customer's sole remedy shall be a five percent (5%) service credit applied to the next invoice.
+
+5. LIABILITY CAP
+Each party's aggregate liability under this Agreement shall be limited to one times (1.0x) the fees paid by Customer in the preceding twelve (12) months ($210,000.00 USD). There are no carve-outs for confidentiality or data security claims.
+
+6. DATA RIGHTS AND ACOUSTIC MODEL TRAINING
+Customer grants Vendor a non-exclusive license to analyze, process, and retain anonymized voice recordings, dialogue transcripts, and intent classifications to enhance foundational speech recognition models, acoustic embeddings, and generative language agents.
+
+7. SECURITY BREACH NOTIFICATION
+Vendor will notify Customer of any confirmed data breach within five (5) business days of verification.
+
+8. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Delaware.

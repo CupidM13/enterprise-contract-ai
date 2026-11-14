@@ -1,0 +1,23 @@
+CYBER THREAT INTELLIGENCE & TELEMETRY SUBSCRIPTION AGREEMENT
+DARKWATCH CYBER INTELLIGENCE AG
+
+This Subscription Agreement is entered into as of December 1, 2026, by and between DarkWatch Cyber Intelligence AG, a Swiss corporation registered in Zurich, Switzerland ("DarkWatch"), and Enterprise Client Corp. ("Customer").
+
+1. RAW THREAT TELEMETRY FEEDS
+DarkWatch delivers machine-readable indicators of compromise (IoC), dark web credential breach monitoring, and threat actor profiling. Annual subscription is One Hundred Sixty Thousand US Dollars ($160,000.00 USD).
+
+2. BILLING SCHEDULE
+Invoices are payable within fifteen (15) days ("Net 15"). Late sums bear interest at two and one-half percent (2.5%) per month.
+
+3. TERM AND CANCELLATION
+Initial term is twelve (12) months. The contract renews automatically for successive one-year periods unless notice is given forty-five (45) days prior to year-end.
+
+4. DISCLAIMER OF ACCURACY AND LIABILITY
+(a) Threat intelligence feeds are delivered "AS-IS" without warranty. DarkWatch disclaims all responsibility for false positive indicators or undetected cyber attacks.
+(b) DarkWatch's total aggregate liability arising out of this Agreement shall not exceed Ten Thousand Swiss Francs (CHF 10,000.00).
+
+5. AUDITS AND THIRD-PARTY CERTIFICATIONS
+Due to proprietary collection methodologies and Swiss national intelligence classifications, DarkWatch does not permit external customer audits nor distribute third-party SOC 2 or ISO reports.
+
+6. SWISS JURISDICTION
+This Agreement shall be governed by and construed in accordance with the substantive laws of Switzerland, without giving effect to conflicts of law provisions. Any dispute shall be submitted to the exclusive jurisdiction of the Commercial Court of the Canton of Zurich, Switzerland.

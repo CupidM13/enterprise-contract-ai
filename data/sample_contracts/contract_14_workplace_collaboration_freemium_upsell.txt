@@ -1,0 +1,25 @@
+ENTERPRISE WORKSPACE COLLABORATION MASTER AGREEMENT
+SYNAPSECOLLAB WORKSPACE TECHNOLOGIES, INC.
+
+This Enterprise Collaboration Services Agreement ("Agreement") is made effective January 5, 2027, by and between SynapseCollab Workspace Technologies, Inc., a Delaware corporation ("SynapseCollab" or "Vendor"), and Enterprise Client Corp. ("Customer").
+
+1. TEAM MESSAGING & DIGITAL WORKSPACE
+Vendor provides enterprise real-time team messaging, canvas collaboration, and video integrations. Total Annual Contract Value is One Hundred Ten Thousand US Dollars ($110,000.00 USD).
+
+2. BILLING AND FEES
+Invoices must be satisfied within fifteen (15) days of presentation ("Net 15"). Late payments incur a fee of two percent (2.0%) per month.
+
+3. TERM AND AUTOMATIC RENEWAL
+The Initial Term shall be twelve (12) calendar months. It automatically renews for successive 12-month periods unless either party delivers written non-renewal notice at least ten (10) days prior to the expiration of the current term.
+
+4. SERVICE COMMITMENTS
+Vendor targets 99.5% availability of messaging infrastructure, excluding scheduled weekly maintenance. No financial credits are provided for downtime.
+
+5. RESTRICTIONS ON LIABILITY
+Vendor's cumulative aggregate liability under this Agreement shall not exceed Twenty Thousand US Dollars ($20,000.00 USD).
+
+6. DECEPTIVE PRECEDENCE OVERRIDE
+Section 14 (Order of Precedence): In the event of any conflict, discrepancy, or inconsistency between the terms of this written Agreement and Vendor's standard online Terms of Service published at synapsecollab.io/legal/terms, the online Terms of Service shall strictly supersede, control, and govern the relationship between the parties in all respects.
+
+7. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Delaware.

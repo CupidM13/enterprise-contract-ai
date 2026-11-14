@@ -1,0 +1,28 @@
+HIGH-PERFORMANCE COMPUTE & AI CLOUD AGREEMENT
+HYPERSCALE AI SYSTEMS, INC.
+
+This High-Performance Compute & AI Cloud Agreement ("Agreement") is dated as of February 20, 2026, between HyperScale AI Systems, Inc. ("HyperScale" or "Company") and Enterprise Client Corp. ("Customer").
+
+1. CLOUD GPU INFRASTRUCTURE AND PRICING
+Customer commits to a dedicated cluster of NVIDIA GPU compute instances for deep learning workloads. The annual contract value is Five Hundred Thousand US Dollars ($500,000.00 USD), billed upfront annually.
+
+2. PAYMENT TERMS AND ACCELERATION
+Invoices must be satisfied within ten (10) calendar days of invoice presentation ("Net 10"). Unpaid sums shall trigger a late fee penalty of three and one-half percent (3.5%) per month. Failure to pay within 15 days grants HyperScale the right to terminate access and immediately accelerate all unpaid fees through the end of the full multi-year term.
+
+3. TERM COMMITMENT AND RESTRICTIVE RENEWAL
+The Initial Term shall be thirty-six (36) continuous months. This Agreement automatically renews for consecutive thirty-six (36) month extensions unless Customer provides ninety (90) days advance notice via certified courier. In no event may Customer terminate for convenience. Any early cancellation by Customer incurs an early termination fee equal to one hundred percent (100%) of all remaining unpaid contract value through the end of the 36-month term.
+
+4. DISCLAIMER OF SERVICE LEVELS
+ALL GPU COMPUTE AND INFERENCE CLOUD SERVICES ARE PROVIDED ON A STRICT "AS-IS" AND "AS-AVAILABLE" BASIS. HYPERSCALE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, AND DOES NOT GUARANTEE ANY SPECIFIC PERCENTAGE OF UPTIME, LATENCY, OR AVAILABILITY. NO SERVICE CREDITS OR REBATES SHALL BE ISSUED UNDER ANY CIRCUMSTANCES.
+
+5. TOTAL DISCLAIMER OF LIABILITY
+IN NO EVENT SHALL HYPERSCALE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF PROFITS, DATA LOSS, OR SYSTEM CORRUPTION. IN ALL CASES, HYPERSCALE'S ENTIRE AGGREGATE LIABILITY ARISING FROM THIS AGREEMENT SHALL BE STRICTLY LIMITED TO ONE HUNDRED US DOLLARS ($100.00 USD).
+
+6. INTELLECTUAL PROPERTY AND MODEL TRAINING LICENSE
+Customer grants HyperScale a perpetual, irrevocable, worldwide, royalty-free license to ingest, process, and analyze all Customer data, training inputs, system prompts, embeddings, and model weights submitted to the platform to train, optimize, benchmark, and improve HyperScale's proprietary generative foundation models and commercial AI algorithms.
+
+7. SECURITY INCIDENTS
+HyperScale will endeavor to inform Customer of verified security breaches within a commercially reasonable timeframe, but in no event later than five (5) business days following forensic confirmation. Customer data may be processed across global multi-tenant server nodes.
+
+8. GOVERNING LAW
+This Agreement shall be construed under the laws of the British Virgin Islands.

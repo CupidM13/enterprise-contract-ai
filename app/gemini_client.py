@@ -205,18 +205,26 @@ class GeminiClient:
     # ------------------------------------------------------------------------
 
     def _mock_embeddings(self, texts: List[str]) -> List[List[float]]:
-        """Generates deterministic normalized 768-dimensional vectors from text hashes.
+        """Generates deterministic normalized 768-dimensional vectors from text keywords.
 
-        Guarantees that FAISS vector search works smoothly offline, in CI/CD, or before key configuration.
+        Uses SHA-256 word projections so that semantic overlap is preserved deterministically
+        across separate Python processes, in CI/CD, or before key configuration.
         """
+        import hashlib
+        import re
+
         vectors: List[List[float]] = []
         dim = settings.embedding_dimension
         for text in texts:
-            # Deterministic pseudo-random seed from string hash
-            seed = abs(hash(text)) % (2**32)
-            rng = np.random.default_rng(seed)
-            vec = rng.standard_normal(dim).astype(np.float32)
-            # Normalize vector to unit length for cosine similarity
+            words = re.findall(r"[a-zA-Z0-9]+", text.lower())
+            if not words:
+                vec = np.zeros(dim, dtype=np.float32)
+            else:
+                vec = np.zeros(dim, dtype=np.float32)
+                for w in words:
+                    s = int(hashlib.sha256(w.encode("utf-8")).hexdigest()[:8], 16)
+                    rng = np.random.default_rng(s)
+                    vec += rng.standard_normal(dim).astype(np.float32)
             norm = np.linalg.norm(vec)
             if norm > 0:
                 vec = vec / norm

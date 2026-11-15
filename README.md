@@ -171,7 +171,7 @@ Evaluated across **15 diverse synthetic enterprise contracts** against [data/sam
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/enterprise-contract-ai.git
+git clone https://github.com/CupidM13/enterprise-contract-ai.git
 cd enterprise-contract-ai
 
 # 2. Create and activate a virtual environment
@@ -192,7 +192,13 @@ export GEMINI_API_KEY="your-free-gemini-api-key"
 ```bash
 streamlit run ui/dashboard.py
 ```
-Open **`http://localhost:8501`** in your browser to inspect contracts, view risk scores, and download legal redline reports.
+Open **`http://localhost:8501`** in your browser to experience the enhanced enterprise UI:
+- **Interactive Risk Dial**: Real-time Plotly half-donut risk gauge (0–100) with color-coded severity bands.
+- **Difficulty-Tiered Scenarios**: Filter through 15 pre-loaded enterprise scenarios by tier (`🟢 Easy`, `🟡 Moderate`, `🔴 Hard/Buried`, `🟣 Adversarial`) or upload your own `.pdf`, `.txt`, or `.md` contract.
+- **Executive Decision Banner**: Immediate verdict alert (`APPROVE`, `CONDITIONAL APPROVAL`, or `REJECT OR REDLINE`) with key procurement negotiation leverage points.
+- **Verbatim Citations & Actionable Redlines**: Filter violations by severity, view exact contract quotes highlighted in context, and copy recommended redlines.
+- **Visual LLMOps Benchmarks**: Interactive Plotly bar charts comparing Zero-Shot baseline vs. Production Pipeline performance across metrics and difficulty tiers.
+- **One-Click Export**: Download comprehensive Markdown Executive Redline reports or raw audit JSONs.
 
 ### Launch the FastAPI Backend
 
